@@ -1,0 +1,22 @@
+# version: "3.9"
+
+
+services:
+  application:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NODE_VERSION: "20-alpine"
+      target: dev
+    container_name: application
+    ports:
+      - 3000:3000
+    volumes:
+      - type: bind
+        source: ./
+        target: /app
+      - type: volume
+        target: /app/node_modules
+    environment:
+      NODE_ENV: development
