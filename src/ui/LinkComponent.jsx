@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 
-export default function NavHamburgerMenuItem({ title, link }) {
+export default function LinkComponent({ title, link }) {
 
     return (
         <div>
