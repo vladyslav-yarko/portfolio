@@ -31,9 +31,9 @@ export default function ThemeToggler() {
         <div onClick={() => updateTheme()}>
             {
                 theme === "dark" ? (
-                    <Moon />
-                ) : (
                     <Sun />
+                ) : (
+                    <Moon />
                 )
             }
         </div>
