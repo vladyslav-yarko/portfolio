@@ -1,4 +1,4 @@
-import NavHamburgerMenuItem from "../components/NavHamburgerMenuItem"
+import NavHamburgerMenuItem from "./NavHamburgerMenuItem"
 
 
 export default function NavHamburgerMenu() {
