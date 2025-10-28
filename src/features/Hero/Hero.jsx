@@ -1,5 +1,6 @@
 import ImageComponent from "@/ui/ImageComponent"
 import Title from "./components/Title"
+import Tagline from "./components/Tagline"
 
 
 export default function Hero() {
@@ -13,6 +14,7 @@ export default function Hero() {
                 height={200}
             />
             <Title />
+            <Tagline />
         </div>
     )
 }
