@@ -4,7 +4,7 @@ import LinkNewTabComponent from "@/ui/LinkNewTabComponent"
 export default function LinkedIn(props) {
 	return (
 		<div>
-			<LinkNewTabComponent>
+			<LinkNewTabComponent link={process.env.NEXT_PUBLIC_LINKEDIN_URL}>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
 					width='1em'
