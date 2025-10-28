@@ -8,7 +8,7 @@ export default function ImageComponent({ src, alt, width, height }) {
             <Image 
                 src={src}
                 alt={alt}
-                widht={width}
+                width={width}
                 height={height}
             />
         </div>
