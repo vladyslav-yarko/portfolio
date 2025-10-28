@@ -5,7 +5,7 @@ import ThemeToggler from "./features/ThemeToggler"
 export default function Navbar() {
 
     return (
-        <div>
+        <div className="flex">
             <NavHamburger />
             <ThemeToggler />
         </div>
