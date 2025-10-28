@@ -17,7 +17,7 @@ export default function ThemeToggler() {
     useEffect(() => {
         if (["dark", "light"].includes(theme)) {
             document.documentElement.setAttribute('data-theme', theme)
-            localStorage.setItem('data-theme', theme)
+            localStorage.setItem('portfolioTheme', theme)
         } else {
             setTheme("light")
         }
