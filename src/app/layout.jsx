@@ -2,6 +2,7 @@ import "../styles/globals.css"
 
 import Navbar from "@/features/Navbar";
 import Footer from "@/features/Footer";
+import { NavbarContextProvider } from "@/context/NavbarConext";
 
 
 export const metadata = {
@@ -12,12 +13,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
-    </html>
-  );
+		<html lang='en'>
+			<body>
+				<NavbarContextProvider>
+					<Navbar />
+				</NavbarContextProvider>
+				{children}
+				<Footer />
+			</body>
+		</html>
+	)
 }

@@ -2,7 +2,7 @@
 import { createContext, useState } from 'react'
 
 
-const NavbarContext = createContext()
+export const NavbarContext = createContext()
 
 
 export const NavbarContextProvider = ({ children }) => {
