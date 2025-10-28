@@ -1,11 +1,11 @@
-import Link from "next/link"
+import LinkComponent from "@/ui/LinkComponent"
 
 
 export default function NavHamburgerMenuItem({ title, link }) {
 
     return (
         <div>
-            <Link href={link}>{title}</Link>
+            <LinkComponent title={title} link={link}/>
         </div>
     )
 }
