@@ -2,6 +2,7 @@ import ImageComponent from "@/ui/ImageComponent"
 import Title from "./components/Title"
 import Tagline from "./components/Tagline"
 import AboutButton from "./components/AboutButton"
+import ContactButton from "./components/ContactButton"
 
 
 export default function Hero() {
@@ -17,6 +18,7 @@ export default function Hero() {
             <Title />
             <Tagline />
             <AboutButton />
+            <ContactButton />
         </div>
     )
 }
