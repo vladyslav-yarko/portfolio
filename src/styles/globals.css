@@ -6,6 +6,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "./themes/theme.css";
+
 @import "./layers/baseLayer.css";
 @import "./layers/componentLayer.css";
 @import "./layers/utilitiesLayer.css";
