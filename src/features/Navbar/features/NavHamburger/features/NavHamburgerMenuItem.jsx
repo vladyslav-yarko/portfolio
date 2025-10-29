@@ -15,8 +15,8 @@ export default function NavHamburgerMenuItem({ title, link }) {
     }
 
     return (
-        <div>
-            <LinkComponent title={title} link={link} onClick={() => closeMenu()}/>
-        </div>
-    )
+			<div className='hamburgerMenuItem'>
+				<LinkComponent title={title} link={link} onClick={() => closeMenu()} />
+			</div>
+		)
 }
