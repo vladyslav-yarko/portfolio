@@ -2,10 +2,10 @@ export default function Tagline() {
 
     return (
 			<div>
-				<p>
+				<h2>
 					Full-Stack Developer | RESTful APIs, AI integration, DevOps & frontend
 					| Excited to build innovative solutions!
-				</p>
+				</h2>
 			</div>
 		)
 }
