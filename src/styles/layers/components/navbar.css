@@ -7,7 +7,9 @@
     }
 
     .themeTogglerIcon, .hamburgerIcon {
-        @apply w-8 md:w-12 lg:w-14 h-8 md:h-12 lg:h-14;
+        @apply w-8 md:w-12 lg:w-14 h-8 md:h-12 lg:h-14
+        transition hover:bg-accentColor cursor-pointer
+        rounded-xl;
     }
 
     .themeTogglerIcon {
@@ -27,6 +29,7 @@
     .hamburgerMenuItem {
         @apply p-1 md:p-2.5 lg:p-4
         border border-amber-700 rounded-lg
-        text-center;
+        text-center
+        transition hover:bg-accentColor;
     }
 }
