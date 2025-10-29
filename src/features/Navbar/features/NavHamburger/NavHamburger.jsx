@@ -16,7 +16,7 @@ export default function NavHamburger() {
     }
 
     return (
-        <div>
+        <div className="relative">
             <NavHamburgerIcon onClick={() => toggleMenu()}/>
             {
                 menuOpened ? (

@@ -28,14 +28,12 @@ export default function ThemeToggler() {
     }
 
     return (
-        <div onClick={() => updateTheme()}>
-            {
-                theme === "dark" ? (
-                    <Sun />
-                ) : (
-                    <Moon />
-                )
-            }
-        </div>
-    )
+			<div onClick={() => updateTheme()} className='themeTogglerIcon'>
+				{theme === 'dark' ? (
+					<Sun width='100%' height='100%' />
+				) : (
+					<Moon width='100%' height='100%' />
+				)}
+			</div>
+		)
 }
