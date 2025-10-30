@@ -6,7 +6,8 @@
     .hero {
         @apply grid grid-cols-2 justify-items-center
         shadow
-        mx-8 md:mx-8 lg:mx-24; 
+        mx-8 md:mx-8 lg:mx-24
+        transition hover:shadow hover:shadow-accentColorSecondary; 
     }
 
     .heroImage, .heroTitle, .heroTagline {
