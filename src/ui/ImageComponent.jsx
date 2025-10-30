@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 
-export default function ImageComponent({ src, alt, width, height }) {
+export default function ImageComponent({ src, alt, width, height, className="" }) {
 
     return (
-        <div>
+        <div className={`${className}`}>
             <Image 
                 src={src}
                 alt={alt}
