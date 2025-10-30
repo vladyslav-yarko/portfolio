@@ -8,7 +8,7 @@
         shadow
         mx-8 md:mx-8 lg:mx-24
         px-8
-        transition hover:shadow hover:shadow-accentColorSecondary; 
+        transition hover:shadow hover:shadow-accent dark:hover:shadow-accent-dark; 
     }
 
     .heroImage, .heroTitle, .heroTagline {

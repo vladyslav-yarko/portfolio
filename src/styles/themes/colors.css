@@ -1,5 +1,55 @@
 @theme {
+  --color-background: oklch(98% 0.01 250);
+  --color-foreground: oklch(20% 0.03 250);
 
-    --color-accentColor: #9EC572;
-    --color-accentColorSecondary: oklch(63.7% 0.237 25.331);
+  --color-card: oklch(100% 0 0);
+  /* --color-card-foreground: var(--color-foreground); */
+
+  --color-popover: oklch(100% 0 0);
+  --color-popover-foreground: var(--color-foreground);
+
+  --color-muted: oklch(96% 0.01 250);
+  --color-muted-foreground: oklch(45% 0.02 250);
+
+  --color-border: oklch(88% 0.02 250);
+  --color-input: var(--color-border);
+  --color-ring: #22c55e;
+
+  --color-primary: #22c55e;
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: oklch(95% 0.01 250);
+  --color-secondary-foreground: oklch(25% 0.03 250);
+
+  --color-accent: oklch(96% 0.04 155);
+  --color-accent-foreground: oklch(30% 0.05 155);
+
+  --color-accentColor: var(--color-primary);
+  --color-accentColorSecondary: var(--color-accent);
+
+
+  --color-background-dark: #0f172a;
+  --color-foreground-dark: #e5e7eb;
+
+  --color-card-dark: #111827; 
+  --color-card-foreground-dark: var(--color-foreground);
+
+  --color-popover-dark: #0b1220; 
+  --color-popover-foreground-dark: var(--color-foreground);
+
+  --color-muted-dark: #1f2937; 
+  --color-muted-foreground-dark: #9ca3af;
+
+  --color-border-dark: #334155;
+  --color-input-dark: var(--color-border);
+  --color-ring-dark: #22c55e;
+
+  --color-primary-dark: #22c55e;
+  --color-primary-foreground-dark: #ffffff;
+
+  --color-secondary-dark: #0f172a; 
+  --color-secondary-foreground-dark: #e5e7eb;
+
+  --color-accent-dark: #064e3b;
+  --color-accent-foreground-dark: #d1fae5;
 }

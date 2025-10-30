@@ -1,48 +1,38 @@
 @layer components {
 
     .navbar {
-        @apply bg-white sticky top-0 left-0 right-0 z-50
+        @apply bg-card dark:bg-card-dark sticky top-0 left-0 right-0 z-50
         flex flex-row justify-between items-center shadow
         h-10 md:h-16 lg:h-24
         rounded-lg
-        transition hover:shadow hover:shadow-accentColorSecondary
-        mb-32 md:mb-32 lg:mb-32  ; /* mt-4 m-1 */
+        transition hover:shadow hover:shadow-accent dark:hover:shadow-accent-dark
+        mb-32 md:mb-32 lg:mb-32;
     }
-
-    /* .navbar {
-        @apply fixed top-0 left-0 right-0 z-50
-        flex flex-row justify-between items-center
-        h-10 md:h-16 lg:h-24
-        bg-white shadow
-        rounded-none
-        transition hover:shadow hover:shadow-accentColorSecondary;
-    } */
 
     .themeTogglerIcon, .hamburgerIcon {
         @apply w-8 md:w-12 lg:w-14 h-8 md:h-12 lg:h-14
-        transition hover:bg-accentColor cursor-pointer
-        rounded-xl;
+        transition hover:bg-accent/20 cursor-pointer
+        rounded-xl text-muted-foreground dark:text-muted-foreground-dark;
     }
 
     .themeTogglerIcon {
         @apply mr-10 md:mr-12 lg:mr-20;
     }
 
-    .hamburgerIcon {
-        @apply text-red-500;
-    }
+    /* .hamburgerIcon {
+        @apply;
+    } */
 
     .hamburgerMenu {
-        @apply fixed shadow rounded-lg z-50 bg-amber-500/50 p-2
+        @apply fixed shadow rounded-lg z-50 bg-popover dark:bg-popover-dark p-2 border border-border dark:border-border-dark
         grid grid-cols-1 gap-3 items-center
         w-24 md:w-28 lg:w-36 h-64 md:h-80 lg:h-96;
     }
     
     .hamburgerMenuItem {    
         @apply p-1 md:p-2.5 lg:p-4
-        border border-amber-700 rounded-lg
+        border border-border dark:border-border-dark rounded-lg
         text-center
-        transition hover:bg-accentColor;
+        transition hover:bg-accent dark:hover:bg-accent-dark hover:text-accent-foreground dark:hover:text-accent-foreground-dark;
     }
 }
-w-full h-full

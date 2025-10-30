@@ -2,15 +2,14 @@
 
     .footer {
         @apply flex flex-row w-full justify-evenly items-center
-        /* fixed bottom-0  */
-        bg-black rounded-lg
+        bg-card dark:bg-card-dark rounded-lg
         h-16 md:h-24 lg:h-32
         mt-32 md:mt-48 lg:mt-64
-        transition hover:shadow hover:shadow-accentColorSecondary;
+        transition hover:shadow hover:shadow-accent dark:hover:shadow-accent-dark;
     }
 
     .footerItem {
         @apply w-8 md:w-12 lg:w-14 h-8 md:h-12 lg:h-14
-        hover:bg-accentColor rounded-xl;
+        rounded-xl text-muted-foreground dark:text-muted-foreground-dark hover:bg-accent/20 dark:hover:bg-accent-dark/20 hover:text-primary dark:hover:text-primary-dark;
     }
 }
