@@ -1,8 +1,8 @@
-export default function ButtonPrimary() {
+export default function ButtonPrimary({ text }) {
 
     return (
         <div className="buttonPrimary">
-            <button></button>
+            <button>{text}</button>
         </div>
     )
 }

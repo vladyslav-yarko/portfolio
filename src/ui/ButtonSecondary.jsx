@@ -1,8 +1,8 @@
-export default function ButtonSecondary() {
+export default function ButtonSecondary({ text }) {
 
     return (
         <div className="buttonSecondary">
-            <button></button>
+            <button>{text}</button>
         </div>
     )
 }

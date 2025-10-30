@@ -1,10 +1,12 @@
 @layer components {
 
     .buttonPrimary {
-
+        @apply bg-amber-500 border border-amber-700 rounded-lg
+        hover:bg-accentColor transition;
     }
 
     .buttonSecondary {
-        
+        @apply bg-blue-500 border border-amber-700 rounded-lg
+        hover:bg-accentColor transition;
     }
 }
