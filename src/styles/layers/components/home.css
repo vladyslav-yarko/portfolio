@@ -4,11 +4,16 @@
     }
 
     .hero {
-        @apply grid grid-cols-2 justify-items-center;
+        @apply grid grid-cols-2 justify-items-center
+        ;
     }
 
     .heroImage, .heroTitle, .heroTagline {
         @apply col-span-2;
+    }
+
+    .heroTitle, .heroTagline {
+        @apply text-center
     }
 
     .heroImage {
@@ -19,11 +24,11 @@
         my-3.5 md:my-5 lg:my-7;
     }
 
-    .heroTitle {
+    /* .heroTitle {
         @apply col-span-2;
     }
 
     .heroTagline {
         @apply col-span-2;
-    }
+    } */
 }
