@@ -5,14 +5,12 @@ import LinkComponent from "@/ui/LinkComponent"
 export default function AboutButton() {
 
     return (
-        <div className="heroPrimaryButton">
-            <ButtonPrimary>
-                <LinkComponent 
-                    title="About me"
-                    link="/about"
-                    onClick={null}
-                />
-            </ButtonPrimary>
-        </div>
-    )
+			<div className='heroPrimaryButton'>
+				<ButtonPrimary>
+					<h2>
+						<LinkComponent title='About me' link='/about' onClick={null} />
+					</h2>
+				</ButtonPrimary>
+			</div>
+		)
 }

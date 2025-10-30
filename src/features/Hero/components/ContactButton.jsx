@@ -5,14 +5,16 @@ import LinkComponent from "@/ui/LinkComponent"
 export default function ContactButton() {
 
     return (
-        <div className="heroSecondaryButton">
-            <ButtonSecondary>
-                <LinkComponent 
-                    title="Contact with me"
-                    link="/contact"
-                    onClick={null}
-                />
-            </ButtonSecondary>
-        </div>
-    )
+			<div className='heroSecondaryButton'>
+				<ButtonSecondary>
+					<h2>
+						<LinkComponent
+							title='Contact with me'
+							link='/contact'
+							onClick={null}
+						/>
+					</h2>
+				</ButtonSecondary>
+			</div>
+		)
 }

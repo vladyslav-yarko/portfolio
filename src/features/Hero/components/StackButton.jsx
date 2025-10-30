@@ -5,14 +5,12 @@ import LinkComponent from "@/ui/LinkComponent"
 export default function StackButton() {
 
     return (
-        <div className="heroPrimaryButton">
-            <ButtonPrimary>
-                <LinkComponent 
-                    title="My stack"
-                    link="/stack"
-                    onClick={null}
-                />
-            </ButtonPrimary>
-        </div>
-    )
+			<div className='heroPrimaryButton'>
+				<ButtonPrimary>
+					<h2>
+						<LinkComponent title='My stack' link='/stack' onClick={null} />
+					</h2>
+				</ButtonPrimary>
+			</div>
+		)
 }
