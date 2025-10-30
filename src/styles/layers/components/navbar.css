@@ -30,7 +30,8 @@
     }
     
     .hamburgerMenuItem {    
-        @apply p-1 md:p-2.5 lg:p-4
+        @apply h-full w-full
+        
         border border-border dark:border-border-dark rounded-lg
         text-center
         transition hover:bg-accent dark:hover:bg-accent-dark hover:text-accent-foreground dark:hover:text-accent-foreground-dark;
