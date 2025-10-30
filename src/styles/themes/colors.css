@@ -1,4 +1,5 @@
 @theme {
 
-    --color-accentColor: #9EC572
+    --color-accentColor: #9EC572;
+    --color-accentColorSecondary: oklch(63.7% 0.237 25.331);
 }
