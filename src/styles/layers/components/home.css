@@ -7,6 +7,7 @@
         @apply grid grid-cols-2 justify-items-center
         shadow
         mx-8 md:mx-8 lg:mx-24
+        px-8
         transition hover:shadow hover:shadow-accentColorSecondary; 
     }
 
@@ -27,12 +28,13 @@
     }
 
     .heroPrimaryButton {
-        @apply w-16 md:w-24 lg:w-96 h-8 md:h-16 lg:h-24;
+        @apply w-32 md:w-64 lg:w-80 h-12 md:h-24 lg:h-28
+        mt-16;
     }
 
     .heroSecondaryButton {
         @apply col-span-2
-        w-32 md:w-48 lg:w-140 h-8 md:h-16 lg:h-24
+        w-64 md:w-128 lg:w-170 h-16 md:h-28 lg:h-32
         my-8;
     }
 
