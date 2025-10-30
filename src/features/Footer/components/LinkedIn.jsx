@@ -3,12 +3,12 @@ import LinkNewTabComponent from "@/ui/LinkNewTabComponent"
 
 export default function LinkedIn(props) {
 	return (
-		<div>
+		<div className='footerItem'>
 			<LinkNewTabComponent link={process.env.NEXT_PUBLIC_LINKEDIN_URL}>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
-					width='1em'
-					height='1em'
+					width={'100%'}
+					height={'100%'}
 					viewBox='0 0 128 128'
 					{...props}
 				>
