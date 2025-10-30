@@ -9,7 +9,7 @@ import StackButton from "./components/StackButton"
 export default function Hero() {
 
     return (
-        <div>
+        <div className="hero">
             <ImageComponent 
                 src="/personal.jpg"
                 alt="profile photo"
