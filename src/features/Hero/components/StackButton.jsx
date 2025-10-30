@@ -1,18 +1,18 @@
-import ButtonComponent from "@/ui/ButtonComponent"
+import ButtonPrimary from "@/ui/ButtonPrimary"
 import LinkComponent from "@/ui/LinkComponent"
 
 
 export default function StackButton() {
 
     return (
-        <div>
-            <ButtonComponent>
+        <div className="heroPrimaryButton">
+            <ButtonPrimary>
                 <LinkComponent 
                     title="My stack"
                     link="/stack"
                     onClick={null}
                 />
-            </ButtonComponent>
+            </ButtonPrimary>
         </div>
     )
 }

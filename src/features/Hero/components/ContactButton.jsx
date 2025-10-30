@@ -1,18 +1,18 @@
-import ButtonComponent from "@/ui/ButtonComponent"
+import ButtonSecondary from "@/ui/ButtonSecondary"
 import LinkComponent from "@/ui/LinkComponent"
 
 
 export default function ContactButton() {
 
     return (
-        <div>
-            <ButtonComponent>
+        <div className="heroSecondaryButton">
+            <ButtonSecondary>
                 <LinkComponent 
                     title="Contact with me"
                     link="/contact"
                     onClick={null}
                 />
-            </ButtonComponent>
+            </ButtonSecondary>
         </div>
     )
 }

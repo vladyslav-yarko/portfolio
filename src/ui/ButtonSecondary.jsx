@@ -1,8 +1,8 @@
-export default function ButtonSecondary({ text }) {
+export default function ButtonSecondary({ children }) {
 
     return (
-        <div className="buttonSecondary">
-            <button>{text}</button>
-        </div>
-    )
+			<div className='buttonSecondary'>
+				<button>{children}</button>
+			</div>
+		)
 }

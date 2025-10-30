@@ -1,8 +1,8 @@
-export default function ButtonPrimary({ text }) {
+export default function ButtonPrimary({ children }) {
 
     return (
-        <div className="buttonPrimary">
-            <button>{text}</button>
-        </div>
-    )
+			<div className='buttonPrimary'>
+				<button>{children}</button>
+			</div>
+		)
 }

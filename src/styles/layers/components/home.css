@@ -26,6 +26,15 @@
         my-3.5 md:my-5 lg:my-7;
     }
 
+    .heroPrimaryButton {
+        @apply w-16 md:w-24 lg:w-96 h-8 md:h-16 lg:h-24;
+    }
+
+    .heroSecondaryButton {
+        @apply col-span-2
+        w-32 md:w-48 lg:w-64 h-8 md:h-16 lg:h-48;
+    }
+
     /* .heroTitle {
         @apply col-span-2;
     }
