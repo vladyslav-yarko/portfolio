@@ -4,9 +4,10 @@ import Hero from "@/features/Hero"
 export default function HomePage() {
 
     return (
-        <div className="home">
+        <div> 
             <Hero />
         </div>
     )
 }
 
+// className = 'home'

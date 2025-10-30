@@ -1,11 +1,12 @@
 @layer components {
-    .home {
+    /* .home {
         @apply shadow;
-    }
+    } */
 
     .hero {
         @apply grid grid-cols-2 justify-items-center
-        ;
+        shadow
+        mx-8 md:mx-8 lg:mx-24; 
     }
 
     .heroImage, .heroTitle, .heroTagline {
