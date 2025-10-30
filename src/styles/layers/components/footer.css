@@ -2,8 +2,9 @@
 
     .footer {
 
-        @apply flex flex-row w-full justify-evenly
+        @apply flex flex-row w-full justify-evenly items-center
         fixed bottom-0
-        bg-black;
+        bg-black rounded-lg
+        h-16 md:h-24 lg:h-32;
     }
 }
