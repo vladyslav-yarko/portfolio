@@ -2,7 +2,7 @@ export default function ButtonSecondary({ children }) {
 
     return (
 			<div className='buttonSecondary'>
-				<button>{children}</button>
+				<button className='w-full h-full'>{children}</button>
 			</div>
 		)
 }

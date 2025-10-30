@@ -1,6 +1,6 @@
 @layer components {
     .buttonPrimary, .buttonSecondary {
-        @apply text-center;
+        @apply text-center w-full h-full;
     }
 
     .buttonPrimary {
