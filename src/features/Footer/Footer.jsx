@@ -5,7 +5,7 @@ import LinkedIn from "./components/LinkedIn"
 export default function Footer() {
 
     return (
-        <div>
+        <div className="footer">
             <Github />
             <LinkedIn />
         </div>

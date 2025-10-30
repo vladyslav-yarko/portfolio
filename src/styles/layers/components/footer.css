@@ -2,6 +2,8 @@
 
     .footer {
 
-        @apply
+        @apply flex flex-row w-full justify-evenly
+        fixed bottom-0
+        bg-black;
     }
 }
