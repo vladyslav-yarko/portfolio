@@ -4,7 +4,12 @@
     }
         
     body {
-        @apply bg-sky-200 text-black dark:bg-slate-600 dark:text-white;
+        @apply bg-sky-200 text-black dark:bg-slate-600 dark:text-white
+        flex flex-col min-h-screen;
+    }
+
+    main {
+        @apply grow;
     }
 
     h1 {

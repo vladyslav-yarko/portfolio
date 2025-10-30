@@ -18,7 +18,9 @@ export default function RootLayout({ children }) {
 				<NavbarContextProvider>
 					<Navbar />
 				</NavbarContextProvider>
-				{children}
+				<main>
+					{children}
+				</main>
 				<Footer />
 			</body>
 		</html>

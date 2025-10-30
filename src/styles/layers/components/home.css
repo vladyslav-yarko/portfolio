@@ -32,7 +32,8 @@
 
     .heroSecondaryButton {
         @apply col-span-2
-        w-32 md:w-48 lg:w-64 h-8 md:h-16 lg:h-48;
+        w-32 md:w-48 lg:w-140 h-8 md:h-16 lg:h-24
+        my-8;
     }
 
     /* .heroTitle {
