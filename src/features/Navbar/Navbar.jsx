@@ -5,9 +5,9 @@ import ThemeToggler from "./features/ThemeToggler"
 export default function Navbar() {
 
     return (
-        <div className="navbar">
+        <nav className="navbar">
             <NavHamburger />
             <ThemeToggler />
-        </div>
+        </nav>
     )
 }
