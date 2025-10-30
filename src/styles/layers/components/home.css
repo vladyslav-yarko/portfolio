@@ -12,7 +12,10 @@
     }
 
     .heroImage {
-        @apply w-2 h-2;
+        @apply w-24 md:w-32 lg:w-40 h-24 md:h-32 lg:h-40
+        relative
+        overflow-hidden
+        rounded-full;
     }
 
     .heroTitle {

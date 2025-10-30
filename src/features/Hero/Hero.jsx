@@ -13,8 +13,6 @@ export default function Hero() {
             <ImageComponent 
                 src="/personal.jpg"
                 alt="profile photo"
-                width={200}
-                height={200}
                 className="heroImage"
             />
             <Title />
