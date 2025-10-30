@@ -4,7 +4,8 @@
         @apply flex flex-row w-full justify-evenly items-center
         fixed bottom-0
         bg-black rounded-lg
-        h-16 md:h-24 lg:h-32 mt-3 md:mt-5 lg:mt-8;
+        h-16 md:h-24 lg:h-32 mt-3 md:mt-5 lg:mt-8
+        transition hover:shadow hover:shadow-accentColorSecondary;
     }
 
     .footerItem {
