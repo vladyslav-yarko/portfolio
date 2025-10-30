@@ -15,6 +15,7 @@ export default function Hero() {
                 alt="profile photo"
                 width={200}
                 height={200}
+                className="heroImage"
             />
             <Title />
             <Tagline />

@@ -4,7 +4,7 @@ import Hero from "@/features/Hero"
 export default function HomePage() {
 
     return (
-        <div>
+        <div className="home">
             <Hero />
         </div>
     )
