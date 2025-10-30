@@ -7,7 +7,7 @@ export default function ContactButton() {
     return (
 			<div className='heroSecondaryButton'>
 				<ButtonSecondary>
-					<h2>
+					<h2 className="w-full h-full">
 						<LinkComponent
 							title='Contact with me'
 							link='/contact'
