@@ -1,6 +1,6 @@
 @layer components {
 
     .loading {
-        @apply flex justify-center items-center w-10 h-10 my-40;
+        @apply flex justify-center items-center     h-10;
     }
 }
