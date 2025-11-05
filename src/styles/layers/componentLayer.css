@@ -2,4 +2,5 @@
 @import "./components/footer.css";
 @import "./components/home.css";
 @import "./components/button.css";
-@import "./components/loading.css"
+@import "./components/loading.css";
+@import "./components/error.css";

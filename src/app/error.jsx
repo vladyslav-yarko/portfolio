@@ -1,10 +1,12 @@
 'use client'
 
+import ErrorState from "@/ui/ErrorState"
+
 
 export default function ErrorPage() {
 	return (
 		<div className="error">
-			<h1>Error...</h1>
+			<ErrorState className="errorIcon"/>
 		</div>
 	)
 }
