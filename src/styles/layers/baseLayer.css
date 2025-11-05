@@ -5,6 +5,7 @@
         
     body {
         @apply bg-background dark:bg-background-dark text-foreground dark:text-foreground-dark flex flex-col min-h-screen;
+        font-family: 'Divale', sans-serif;
     }
 
     main {

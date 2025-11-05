@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Divale';
+  src: url('/fonts/Divale.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @import "tailwindcss";
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
