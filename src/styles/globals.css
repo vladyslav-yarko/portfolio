@@ -5,9 +5,16 @@
   font-style: normal;
 } */
 
-@font-face {
+/* @font-face {
   font-family: 'DazzleCarpet';
   src: url('/fonts/DazzleCarpet.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'TheGoldBachelor';
+  src: url('/fonts/TheGoldBachelor.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
