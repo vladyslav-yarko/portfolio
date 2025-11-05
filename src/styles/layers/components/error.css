@@ -1,0 +1,7 @@
+@layer components {
+
+    .error {
+        @apply flex justify-center items-center;
+    }
+}
+
