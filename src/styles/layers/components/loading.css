@@ -1,6 +1,11 @@
 @layer components {
 
     .loading {
-        @apply flex justify-center items-center     h-10;
+        @apply flex justify-center items-center;
+    }
+
+    .loadingIcon {
+        @apply w-12 md:w-16 lg:w-20 h-12 md:h-16 lg:h-20;
     }
 }
+
