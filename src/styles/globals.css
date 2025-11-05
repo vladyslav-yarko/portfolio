@@ -1,6 +1,13 @@
-@font-face {
+/* @font-face {
   font-family: 'Divale';
   src: url('/fonts/Divale.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'DazzleCarpet';
+  src: url('/fonts/DazzleCarpet.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
