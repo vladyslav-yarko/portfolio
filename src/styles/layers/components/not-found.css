@@ -1,0 +1,11 @@
+@layer components {
+
+    .notFoundIcon {
+        @apply w-12 md:w-16 lg:w-20 h-12 md:h-16 lg:h-20
+        mb-2;
+    }
+
+    .notFoundButton {
+        @apply w-46 h-12 md:w-64 md:h-16 lg:w-96 lg:h-20;
+    }
+}
