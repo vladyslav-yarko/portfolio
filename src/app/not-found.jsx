@@ -1,8 +1,8 @@
 export default function NotFoundPage() {
-    
+
 	return (
-		<>
-			<h1>Error 404 poop</h1>
-		</>
+		<div>
+			<h2>Page not found</h2>
+		</div>
 	)
 }
