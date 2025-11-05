@@ -14,7 +14,7 @@ export default function NotFoundPage() {
 			<div className='flex justify-center items-center'>
 				<div className='notFoundButton'>
 					<ButtonPrimary>
-						<h2>
+						<h2 className='w-full h-full'>
 							<LinkComponent title='Return to home' link='/' onClick={null} />
 						</h2>
 					</ButtonPrimary>
