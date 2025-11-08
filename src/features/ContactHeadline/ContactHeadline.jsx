@@ -1,8 +1,11 @@
+import Header from "./features/Header"
+
+
 export default function ContactHeadline() {
 
     return (
-        <div>
-            
+        <div className="contactHeadline">
+            <Header />
         </div>
     )
 }

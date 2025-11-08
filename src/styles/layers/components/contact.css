@@ -1,14 +1,16 @@
 @layer components {
 
     .contact {
-
+        @apply flex flex-col;
     }
 
     .contactHeadline {
-
+        @apply shadow 
+        transition hover:shadow hover:shadow-accent dark:hover:shadow-accent-dark;
     }
 
     .contactBody {
-        
+        @apply shadow 
+        transition hover:shadow hover:shadow-accent dark:hover:shadow-accent-dark;
     }
 }

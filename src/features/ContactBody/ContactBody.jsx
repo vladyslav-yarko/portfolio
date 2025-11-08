@@ -1,8 +1,8 @@
 export default function ContactBody() {
 
     return (
-        <div>
-            
+        <div className="contactBody">
+            <h1>Body</h1>
         </div>
     )
 }

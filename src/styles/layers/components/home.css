@@ -16,7 +16,7 @@
     }
 
     .heroTitle, .heroTagline {
-        @apply text-center
+        @apply text-center;
     }
 
     .heroImage {

@@ -5,7 +5,7 @@ import ContactHeadline from "@/features/ContactHeadline"
 export default function ContactPage() {
 
     return (
-        <div>
+        <div className="contact">
             <ContactHeadline />
             <ContactBody />
         </div>
