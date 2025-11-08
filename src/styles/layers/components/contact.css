@@ -12,7 +12,8 @@
     }
 
     .contactBody {
-        @apply grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center
+        @apply grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4
+        place-items-center gap-y-8
         shadow p-8
         transition hover:shadow hover:shadow-accent dark:hover:shadow-accent-dark;
     }
