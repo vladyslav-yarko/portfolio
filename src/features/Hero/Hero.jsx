@@ -17,7 +17,7 @@ export default function Hero() {
             />
             <Title />
             <Tagline />
-            <AboutButton />
+            {/* <AboutButton /> */}
             <StackButton />
             <ContactButton />
         </div>
