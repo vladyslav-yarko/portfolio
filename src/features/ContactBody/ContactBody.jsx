@@ -1,5 +1,6 @@
 import Github from "@/ui/Github"
 import LinkedIn from "@/ui/LinkedIn"
+import Discord from "@/ui/Discord"
 
 
 export default function ContactBody() {
@@ -12,6 +13,9 @@ export default function ContactBody() {
 				<div className='contactBodyItem'>
 					<LinkedIn />
 				</div>
+                <div className="contactBodyItem">
+                    <Discord />
+                </div>
 			</div>
 		)
 }
