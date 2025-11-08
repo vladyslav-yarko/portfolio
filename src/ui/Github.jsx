@@ -3,7 +3,7 @@ import LinkNewTabComponent from "@/ui/LinkNewTabComponent"
 
 export default function Github(props) {
 	return (
-		<div className="footerItem">
+		<div >
 			<LinkNewTabComponent link={process.env.NEXT_PUBLIC_GITHUB_URL}>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
@@ -24,3 +24,4 @@ export default function Github(props) {
 		</div>
 	)
 }
+// className = 'footerItem'

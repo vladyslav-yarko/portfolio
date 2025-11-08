@@ -12,8 +12,13 @@
     }
 
     .contactBody {
-        @apply grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4
+        @apply grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center
         shadow p-8
         transition hover:shadow hover:shadow-accent dark:hover:shadow-accent-dark;
+    }
+
+    .contactBodyItem {
+        @apply w-8 md:w-12 lg:w-14 h-8 md:h-12 lg:h-14
+        rounded-xl text-muted-foreground dark:text-muted-foreground-dark hover:bg-accent/20 dark:hover:bg-accent-dark/20 hover:text-primary dark:hover:text-primary-dark;
     }
 }
