@@ -3,6 +3,7 @@ import Title from "./components/Title"
 import Tagline from "./components/Tagline"
 import AboutButton from "./components/AboutButton"
 import ContactButton from "./components/ContactButton"
+import ProjectsButton from "./components/ProjectsButton"
 import StackButton from "./components/StackButton"
 
 
@@ -18,6 +19,7 @@ export default function Hero() {
             <Title />
             <Tagline />
             {/* <AboutButton /> */}
+            <ProjectsButton />
             <StackButton />
             <ContactButton />
         </div>
