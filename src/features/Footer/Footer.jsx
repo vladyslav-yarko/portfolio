@@ -1,5 +1,5 @@
-import Github from "./components/Github"
-import LinkedIn from "./components/LinkedIn"
+import Github from "../../ui/Github"
+import LinkedIn from "../../ui/LinkedIn"
 
 
 export default function Footer() {

@@ -1,16 +1,19 @@
 @layer components {
 
     .contact {
-        @apply flex flex-col;
+        @apply flex flex-col
+        mx-8 md:mx-8 lg:mx-24;
     }
 
     .contactHeadline {
-        @apply shadow 
+        @apply grid grid-cols-1 gap-4 p-8
+        shadow text-center
         transition hover:shadow hover:shadow-accent dark:hover:shadow-accent-dark;
     }
 
     .contactBody {
-        @apply shadow 
+        @apply grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4
+        shadow p-8
         transition hover:shadow hover:shadow-accent dark:hover:shadow-accent-dark;
     }
 }
