@@ -10,18 +10,18 @@ import StackButton from "./components/StackButton"
 export default function Hero() {
 
     return (
-        <div className="hero">
-            <ImageComponent 
-                src="/personal.jpg"
-                alt="profile photo"
-                className="heroImage"
-            />
-            <Title />
-            <Tagline />
-            {/* <AboutButton /> */}
-            <ProjectsButton />
-            <StackButton />
-            <ContactButton />
-        </div>
-    )
+			<div className='hero'>
+				<ImageComponent
+					src='/personal.jpg'
+					alt='profile photo'
+					className='heroImage'
+				/>
+				<Title />
+				<Tagline />
+				{/* <AboutButton /> */}
+				<StackButton />
+				<ProjectsButton />
+				<ContactButton />
+			</div>
+		)
 }
